@@ -1,0 +1,51 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">News Feed</string>
+
+    <!-- Prompt hint for the search tool -->
+    <string name="search_hint">Search articles</string>
+
+    <!-- Title of SearchView in menu -->
+    <string name="action_search">Search articles</string>
+
+    <!-- Welcome image description -->
+    <string name="welcome_image">Welcome Image</string>
+
+    <!-- Text to display in the list when no articles have been found for the search [CHAR LIMIT=NONE] -->
+    <string name="no_articles">No article found&#8230; \n\nTry to make a new search !</string>
+
+    <!-- Text to display in the list when there are no internet connection activated [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.\n\nPlease check your device\'s connectivity status !</string>
+
+    <!-- ImageView for article thumbnail : Content Description -->
+    <string name="article_thumbnail">Thumbnail image for an article</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Newsfeed Settings</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_default</string>
+
+    <!-- Strings For Max Article Preference [CHAR LIMIT=30] -->
+    <string name="settings_max_articles_label">Maximum Number of Articles</string>
+    <string name="settings_max_articles_key" translatable="false">max_articles</string>
+    <string name="settings_max_articles_default" translatable="false">5</string>
+
+    <!-- Label for order-by newest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+    <string name="settings_order_by_newest_default" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by section option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+</resources>
